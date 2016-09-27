@@ -32,6 +32,9 @@ git commit -m '注释'
 - 将本地创库关联到github上 (地址换成自己的)
 ```
 git remote add origin https://github.com/flyer0126/githubStart
+
+*如存在异常：fatal: remote origin already exists.*
+*执行以下语句修复：git remote rm origin*
 ```
 - 上传之前，先pull一下 (自己的分支，默认为master)
 ```
